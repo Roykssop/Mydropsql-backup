@@ -1,0 +1,20 @@
+{
+  dumpPath: " ",
+  chunkSizesInBytes: 1000000,
+  mysql: {
+  host: "localhost",
+  user: "mysqluser",
+  password: "mysqlpwd",
+  },
+  db: {
+  prefix: "",
+  exclude: [
+    "databasenametoexclude"
+  ],
+  group: [ ],
+  },
+  dropbox: {
+  accessToken: "dropboxaccestoken",
+  folderName: "Backups",
+  },
+  }
